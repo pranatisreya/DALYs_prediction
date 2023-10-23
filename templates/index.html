@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DALY's- Mental Disorders</title>
+
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="/static/styles.css">
+    
+</head>
+<body>
+    <h1>Disability Adjusted Life Years - Mental Disorders</h1>
+    <div class="container">
+    <form action="/predict" method="post">
+    <label for="Country">Enter Country name: </label>
+        <select id="Country" name="Country" required>
+            <!-- Loop through the array elements -->
+            <option value="0">Afghanistan</option>
+            <option value="0">Afghanistan</option>
+            <option value="1">African Region (WHO)</option>
+            <option value="2">Albania</option>
+            <option value="3">Algeria</option>
+            <option value="4">American Samoa</option>
+            <option value="5">Andorra</option>
+            <option value="6">Angola</option>
+            <option value="7">Antigua and Barbuda</option>
+            <option value="8">Argentina</option>
+            <option value="9">Armenia</option>
+            <option value="10">Australia</option>
+            <option value="11">Austria</option>
+            <option value="12">Azerbaijan</option>
+            <option value="13">Bahamas</option>
+            <option value="14">Bahrain</option>
+            <option value="15">Bangladesh</option>
+            <option value="16">Barbados</option>
+            <option value="17">Belarus</option>
+            <option value="18">Belgium</option>
+            <option value="19">Belize</option>
+            <option value="20">Benin</option>
+            <option value="21">Bermuda</option>
+            <option value="22">Bhutan</option>
+            <option value="23">Bolivia</option>
+            <option value="24">Bosnia and Herzegovina</option>
+            <option value="25">Botswana</option>
+            <option value="26">Brazil</option>
+            <option value="27">Brunei</option>
+            <option value="28">Bulgaria</option>
+            <option value="29">Burkina Faso</option>
+            <option value="30">Burundi</option>
+            <option value="31">Cambodia</option>
+            <option value="32">Cameroon</option>
+            <option value="33">Canada</option>
+            <option value="34">Cape Verde</option>
+            <option value="35">Central African Republic</option>
+            <option value="36">Chad</option>
+            <option value="37">Chile</option>
+            <option value="38">China</option>
+            <option value="39">Colombia</option>
+            <option value="40">Comoros</option>
+            <option value="41">Congo</option>
+            <option value="42">Cook Islands</option>
+            <option value="43">Costa Rica</option>
+            <option value="44">Cote d'Ivoire</option>
+            <option value="45">Croatia</option>
+            <option value="46">Cuba</option>
+            <option value="47">Cyprus</option>
+            <option value="48">Czechia</option>
+            <option value="49">Democratic Republic of Congo</option>
+            <option value="50">Denmark</option>
+            <option value="51">Djibouti</option>
+            <option value="52">Dominica</option>
+            <option value="53">Dominican Republic</option>
+            <option value="54">East Asia &amp; Pacific (WB)</option>
+            <option value="55">Eastern Mediterranean Region (WHO)</option>
+            <option value="56">Ecuador</option>
+            <option value="57">Egypt</option>
+            <option value="58">El Salvador</option>
+            <option value="59">England</option>
+            <option value="60">Equatorial Guinea</option>
+            <option value="61">Eritrea</option>
+            <option value="62">Estonia</option>
+            <option value="63">Eswatini</option>
+            <option value="64">Ethiopia</option>
+            <option value="65">Europe &amp; Central Asia (WB)</option>
+            <option value="66">European Region (WHO)</option>
+            <option value="67">Fiji</option>
+            <option value="68">Finland</option>
+            <option value="69">France</option>
+            <option value="70">G20</option>
+            <option value="71">Gabon</option>
+            <option value="72">Gambia</option>
+            <option value="73">Georgia</option>
+            <option value="74">Germany</option>
+            <option value="75">Ghana</option>
+            <option value="76">Greece</option>
+            <option value="77">Greenland</option>
+            <option value="78">Grenada</option>
+            <option value="79">Guam</option>
+            <option value="80">Guatemala</option>
+            <option value="81">Guinea</option>
+            <option value="82">Guinea-Bissau</option>
+            <option value="83">Guyana</option>
+            <option value="84">Haiti</option>
+            <option value="85">Honduras</option>
+            <option value="86">Hungary</option>
+            <option value="87">Iceland</option>
+            <option value="88">India</option>
+            <option value="89">Indonesia</option>
+            <option value="90">Iran</option>
+            <option value="91">Iraq</option>
+            <option value="92">Ireland</option>
+            <option value="93">Israel</option>
+            <option value="94">Italy</option>
+            <option value="95">Jamaica</option>
+            <option value="96">Japan</option>
+            <option value="97">Jordan</option>
+            <option value="98">Kazakhstan</option>
+            <option value="99">Kenya</option>
+            <option value="100">Kiribati</option>
+            <option value="101">Kuwait</option>
+            <option value="102">Kyrgyzstan</option>
+            <option value="103">Laos</option>
+            <option value="104">Latin America &amp; Caribbean (WB)</option>
+            <option value="105">Latvia</option>
+            <option value="106">Lebanon</option>
+            <option value="107">Lesotho</option>
+            <option value="108">Liberia</option>
+            <option value="109">Libya</option>
+            <option value="110">Liechtenstein</option>
+            <option value="111">Lithuania</option>
+            <option value="112">Luxembourg</option>
+            <option value="113">Madagascar</option>
+            <option value="114">Malawi</option>
+            <option value="115">Malaysia</option>
+            <option value="116">Maldives</option>
+            <option value="117">Mali</option>
+            <option value="118">Malta</option>
+            <option value="119">Marshall Islands</option>
+            <option value="120">Mauritania</option>
+            <option value="121">Mauritius</option>
+            <option value="122">Mexico</option>
+            <option value="123">Micronesia (country)</option>
+            <option value="124">Middle East &amp; North Africa (WB)</option>
+            <option value="125">Moldova</option>
+            <option value="126">Monaco</option>
+            <option value="127">Mongolia</option>
+            <option value="128">Montenegro</option>
+            <option value="129">Morocco</option>
+            <option value="130">Mozambique</option>
+            <option value="131">Myanmar</option>
+            <option value="132">Namibia</option>
+            <option value="133">Nauru</option>
+            <option value="134">Nepal</option>
+            <option value="135">Netherlands</option>
+            <option value="136">New Zealand</option>
+            <option value="137">Nicaragua</option>
+            <option value="138">Niger</option>
+            <option value="139">Nigeria</option>
+            <option value="140">Niue</option>
+            <option value="141">North America (WB)</option>
+            <option value="142">North Korea</option>
+            <option value="143">North Macedonia</option>
+            <option value="144">Northern Ireland</option>
+            <option value="145">Northern Mariana Islands</option>
+            <option value="146">Norway</option>
+            <option value="147">OECD Countries</option>
+            <option value="148">Oman</option>
+            <option value="149">Pakistan</option>
+            <option value="150">Palau</option>
+            <option value="151">Palestine</option>
+            <option value="152">Panama</option>
+            <option value="153">Papua New Guinea</option>
+            <option value="154">Paraguay</option>
+            <option value="155">Peru</option>
+            <option value="156">Philippines</option>
+            <option value="157">Poland</option>
+            <option value="158">Portugal</option>
+            <option value="159">Puerto Rico</option>
+            <option value="160">Qatar</option>
+            <option value="161">Region of the Americas (WHO)</option>
+            <option value="162">Romania</option>
+            <option value="163">Russia</option>
+            <option value="164">Rwanda</option>
+            <option value="165">Saint Kitts and Nevis</option>
+            <option value="166">Saint Lucia</option>
+            <option value="167">Saint Vincent and the Grenadines</option>
+            <option value="168">Samoa</option>
+            <option value="169">San Marino</option>
+            <option value="170">Sao Tome and Principe</option>
+            <option value="171">Saudi Arabia</option>
+            <option value="172">Scotland</option>
+            <option value="173">Senegal</option>
+            <option value="174">Serbia</option>
+            <option value="175">Seychelles</option>
+            <option value="176">Sierra Leone</option>
+            <option value="177">Singapore</option>
+            <option value="178">Slovakia</option>
+            <option value="179">Slovenia</option>
+            <option value="180">Solomon Islands</option>
+            <option value="181">Somalia</option>
+            <option value="181">Somalia</option>
+            <option value="182">South Africa</option>
+            <option value="183">South Asia (WB)</option>
+            <option value="184">South Korea</option>
+            <option value="185">South Sudan</option>
+            <option value="186">South-East Asia Region (WHO)</option>
+            <option value="187">Spain</option>
+            <option value="188">Sri Lanka</option>
+            <option value="189">Sub-Saharan Africa (WB)</option>
+            <option value="190">Sudan</option>
+            <option value="191">Suriname</option>
+            <option value="192">Sweden</option>
+            <option value="193">Switzerland</option>
+            <option value="194">Syria</option>
+            <option value="195">Taiwan</option>
+            <option value="196">Tajikistan</option>
+            <option value="197">Tanzania</option>
+            <option value="198">Thailand</option>
+            <option value="199">Timor</option>
+            <option value="200">Togo</option>
+            <option value="201">Tokelau</option>
+            <option value="202">Tonga</option>
+            <option value="203">Trinidad and Tobago</option>
+            <option value="204">Tunisia</option>
+            <option value="205">Turkey</option>
+            <option value="206">Turkmenistan</option>
+            <option value="207">Tuvalu</option>
+            <option value="208">Uganda</option>
+            <option value="209">Ukraine</option>
+            <option value="210">United Arab Emirates</option>
+            <option value="211">United Kingdom</option>
+            <option value="212">United States</option>
+            <option value="213">United States Virgin Islands</option>
+            <option value="214">Uruguay</option>
+            <option value="215">Uzbekistan</option>
+            <option value="216">Vanuatu</option>
+            <option value="217">Venezuela</option>
+            <option value="218">Vietnam</option>
+            <option value="219">Wales</option>
+            <option value="220">Western Pacific Region (WHO)</option>
+            <option value="221">World</option>
+            <option value="222">World Bank High Income</option>
+            <option value="223">World Bank Low Income</option>
+            <option value="224">World Bank Lower Middle Income</option>
+            <option value="225">World Bank Upper Middle Income</option>
+            <option value="226">Yemen</option>
+            <option value="227">Zambia</option>
+            <option value="228">Zimbabwe</option>
+        </select><br><br>
+
+        <label for="Years">Enter year : </label>
+        <input type="number" id="Years" name="Years" required><br><br>
+
+        <label for="Schizophrenia">Percentage prevalence of Schizophrenia: </label>
+        <input type="number" step ="any" id="Schizophrenia" name="Schizophrenia" required><br><br>
+
+        <label for="Bipolar_Disorder">Percentage prevalence of Bipolar_disorder:  </label>
+        <input type="number" step="any" id="Bipolar_Disorder" name="Bipolar_Disorder" required><br><br>
+
+        <label for="Eating_Disorder">Percentage prevalence of Eating_disorder: </label>
+        <input type="number" step="any" id="Eating_Disorder" name="Eating_Disorder" required><br><br>
+
+        <label for="Anxiety">Percentage prevalence of Anxiety: </label>
+        <input type="number" step="any" id="Anxiety" name="Anxiety" required><br><br>
+
+        <label for="Drug_Addict">Percentage prevalence of Drug_addict:  </label>
+        <input type="number" step="any" id="Drug_Addict" name="Drug_Addict" required><br><br>
+
+        <label for="Depression">Percentage prevalence of Depresssion: </label>
+        <input type="number" step="any" id="Depression" name="Depression" required><br><br>
+
+        <label for="Alcoholism">Percentage prevalence of Alcohol: </label>
+        <input type="number" step="any" id="Alcoholism" name="Alcoholism" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+    <div class="image-container">
+        <img src="/static/image.png" alt="Image">
+    </div>
+    </form>
+    </div>
+    <h1>Disability Adjusted Life Years - Mental Disorders</h1>
+    <p>Predicted result:  {{ predicted_dayls }} percent</p>
+
+</body>
+</html>
