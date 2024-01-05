@@ -493,6 +493,7 @@ The results of the code implementation are as follows.
 
 
 ![alt text](https://github.com/pranatisreya/DALYs_prediction/blob/main/static/image.png)
+![image used](static/image.png)
 
 Fig. 6.1. user interface
 
