@@ -114,7 +114,7 @@ interventions, resource allocation, and policy recommendations to address the bu
 of mental illness on a global scale.
 .
 
-1. 4. OBJECTIVE
+## 1.4. OBJECTIVE
 
 The objective of this project is to develop a robust and accurate predictive model that
 estimates the disability-adjusted life years (DALYs) attributed to mental illness.
@@ -134,7 +134,7 @@ the overall burden of mental illness, improving mental healthcare accessibility,
 promoting the well-being of individuals and communities.
 
 
-#2. PROPOSED SYSTEM:
+# 2. PROPOSED SYSTEM:
 
 Data Flow Diagram
 The data flow diagram for the Disability-Adjusted Life Years Prediction using
@@ -163,18 +163,17 @@ machine learning is as follows.
     predicting DALYs due to mental illness. Potential models for this task include
     regression-based models (e.g., linear regression, support vector regression),
     ensemble models (e.g., random forests, gradient boosting), or deep learning
-models (e.g., neural networks) depending on the complexity of the problem and
-the available data.
-```
-6. Model Training: Train the selected model using the preprocessed dataset.
+   models (e.g., neural networks) depending on the complexity of the problem and the available data.
+
+7. Model Training: Train the selected model using the preprocessed dataset.
     Techniques like cross-validation and hyperparameter tuning are applied to
     optimize the model's performance. The model is trained to predict DALYs based
     on the selected features and their relationships.
-7. Model Evaluation: Evaluate the performance of the trained model using
+8. Model Evaluation: Evaluate the performance of the trained model using
     appropriate evaluation metrics such as mean absolute error (MAE), mean squared
     error (MSE), or R-squared value. This assessment helps determine the accuracy
     and reliability of the model in predicting DALYs due to mental illness.
-8. Model Deployment: Deploy the trained model to make predictions on new or
+9. Model Deployment: Deploy the trained model to make predictions on new or
     unseen data. This can be achieved by developing an application, web interface, or
     API that takes relevant input variables (such as demographic information, mental
     health indicators) and provides an output of predicted DALYs due to mental
@@ -192,7 +191,7 @@ policies.
 
 # 4. SYSTEM REQUIREMENTS
 
-## 4 .1. HARDWARE REQUIREMENTS
+## 4.1. HARDWARE REQUIREMENTS
 
 The Hardware requirements for the DALYs prediction project:
 
@@ -221,17 +220,16 @@ design, and other relevant technologies.
 
 ## 4.2. SOFTWARE REQUIREMENTS
 
-```
-4.2.1. Python
+
+### 4.2.1. Python
 Python is a popular and versatile programming language widely used in the field of
 machine learning. It offers a simple and readable syntax, making it easy for developers
 to write and maintain code. Python provides extensive libraries and frameworks
 specifically designed for machine learning tasks, which greatly simplify the
 development process.
-```
-```
+
 Here are some key aspects of Python's use in machine learning:
-```
+
 1. Simplicity: Python's clean and intuitive syntax makes it beginner-friendly and
     enables rapid development. It emphasizes code readability, which is essential for
     machine learning projects that involve complex algorithms and data manipulation.
@@ -254,15 +252,10 @@ Here are some key aspects of Python's use in machine learning:
     patterns, trends, and relationships, helping machine learning practitioners gain
     insights and make informed decisions.
 6. Easy Integration: Python seamlessly integrates with other programming
-    languages, making it ideal for building end-to-end machine learning pipelines. For
+   languages, making it ideal for building end-to-end machine learning pipelines. For
+   example, you can use Python to preprocess data, train models, and then integrate them into web applications or production systems using frameworks like Flask or Django.
 
-
-```
-example, you can use Python to preprocess data, train models, and then integrate
-them into web applications or production systems using frameworks like Flask or
-Django.
-```
-7. Supportive Community: Python has a vibrant and supportive community of
+8. Supportive Community: Python has a vibrant and supportive community of
     developers and researchers who contribute to open-source projects. This
     community-driven ecosystem ensures continuous improvement and offers
     extensive resources, tutorials, and libraries for machine learning practitioners.
@@ -274,75 +267,54 @@ versatility and ease of use have contributed to its widespread adoption in the f
 Any basic computer or laptop with python latest version installed in the system can
 have this program implemented in.
 
-```
 Language/s Used: Python, html, css
-```
-```
-Python version
-(Recommended):
-```
-## 3.11.
 
-```
+
+Python version(Recommended):3.11.
 Type: Desktop Application
-```
+
 The packages inbuilt in the python that are utilized in the code are.
 
-```
 NumPy is a Python library for scientific computing and data analysis. It offers
 efficient tools for working with large arrays and matrices, including mathematical
 functions, linear algebra operations, and statistical analysis. NumPy's optimized code
 enables fast computation, making it ideal for scientific applications.
-```
-```
-Pandas is an open-source library used for data manipulation and analysis. It provides
-flexible data structures (DataFrames and Series) and features for cleaning,
-```
 
-```
-transforming, and analyzing structured data. Pandas integrates well with other Python
+Pandas is an open-source library used for data manipulation and analysis. It provides
+flexible data structures (DataFrames and Series) and features for cleaning, transforming, and analyzing structured data. Pandas integrates well with other Python
 libraries and is widely used in data science for its ease of use and powerful tools.
-```
-```
+
 Seaborn is a data visualization library built on Matplotlib. It offers a high-level
 interface for creating attractive statistical graphics. Seaborn provides various
 visualization functions, making it easy to explore relationships between variables and
 visualize distributions and summaries. It simplifies the creation of visually appealing
 plots with minimal code.
-```
-```
+
 Matplotlib.pyplot is a module within the Matplotlib library that enables the creation
-of static data visualizations. It provides a simple interface for creating different types
-of plots, such as line plots, scatter plots, and histograms. Matplotlib.pyplot is widely
-used for its ease of use, flexibility, and customization options.
-```
-```
+of static data visualizations. It provides a simple interface for creating different types of plots, such as line plots, scatter plots, and histograms. Matplotlib.pyplot is widely used for its ease of use, flexibility, and customization options.
+
 Scikit-learn (sklearn) is a popular Python library for machine learning tasks. It offers
-a wide range of tools for data preprocessing, classification, regression, clustering, and
-model selection. Scikit-learn provides an intuitive API, making it accessible to
+a wide range of tools for data preprocessing, classification, regression, clustering, and model selection. Scikit-learn provides an intuitive API, making it accessible to
 beginners while offering advanced features like hyperparameter tuning and model
 evaluation.
-```
+
 In summary, these libraries play vital roles in Python's scientific ecosystem, enabling
 efficient array processing, data manipulation, visualization, and machine learning
 tasks.
 
-4.2.2. Flask
+### 4.2.2. Flask
 Flask is a lightweight web framework for Python that is commonly used for building
 web applications, including those related to machine learning projects. It provides a
 simple and flexible approach to developing web services and APIs.
 
 Flask can be utilized in Python for machine learning projects in the following ways:
 
-1. Serving Machine Learning Models: Flask can be used to deploy machine learning
-    models as web services or APIs. By integrating Flask with a machine learning
+1. Serving Machine Learning Models: Flask can be used to deploy machine learning models
+   as web services or APIs. By integrating Flask with a machine learning framework like
+   scikit-learn or TensorFlow, you can build a web application that allows users to
+   interact with the model through an API. Users can send requests to the server, and
+   the server can return predictions generated by the model.
 
-
-```
-framework like scikit-learn or TensorFlow, you can build a web application that
-allows users to interact with the model through an API. Users can send requests to
-the server, and the server can return predictions generated by the model.
-```
 2. Data Collection and Preprocessing: Flask can be used to create web-based
     interfaces for data collection or preprocessing tasks in machine learning projects.
     It enables users to input data through HTML forms or APIs, which can then be
@@ -365,15 +337,15 @@ the server, and the server can return predictions generated by the model.
 5. Creating Annotation Tools: Flask can be used to build web-based annotation tools
     for machine learning projects that require labelled data. These tools allow users to
     annotate or label data directly through a web interface. Flask enables you to handle
-    user interactions, store annotated data, and integrate it seamlessly into the machine
-    learning workflow.
+    user interactions, store annotated data, and integrate it seamlessly into the
+   machine learning workflow.
 
 Flask's flexibility, simplicity, and rich ecosystem of extensions make it an excellent
 choice for integrating machine learning models and building web-based components
 in Python projects.
 
 
-4.2.3. Google Colab:
+### 4.2.3. Google Colab:
 Google Colab is a cloud-based integrated development environment (IDE) provided
 by Google. It allows users to write and execute Python code in a web browser,
 eliminating the need for local installations or configurations. Colab provides access to
