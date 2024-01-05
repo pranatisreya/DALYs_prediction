@@ -268,10 +268,9 @@ Any basic computer or laptop with python latest version installed in the system 
 have this program implemented in.
 
 Language/s Used: Python, html, css
-
-
 Python version(Recommended):3.11.
 Type: Desktop Application
+
 
 The packages inbuilt in the python that are utilized in the code are.
 
@@ -355,7 +354,7 @@ which are interactive documents that combine code, text, and visualizations. Col
 notebooks are often used in machine learning projects for data analysis, model
 training, and experimentation.
 
-4.2.4. HTML (Hypertext Markup Language):
+### 4.2.4. HTML (Hypertext Markup Language):
 HTML is the standard markup language used to create the structure and content of
 web pages. It provides a set of tags and elements that define the layout, headings,
 paragraphs, images, links, and other components of a web page. In the context of a
@@ -365,7 +364,7 @@ HTML forms can be used to collect user input regarding relevant factors influenc
 DALYs, and the collected data can be processed and analysed using machine learning
 algorithms.
 
-4.2.5. CSS (Cascading Style Sheets):
+### 4.2.5. CSS (Cascading Style Sheets):
 CSS is a style sheet language used to describe the presentation and appearance of
 HTML documents. It allows you to define the layout, colours, fonts, and other visual
 aspects of web pages. In the context of a machine learning project, CSS can be used
@@ -376,7 +375,7 @@ consistent design and enhances the user experience by making the application vis
 engaging and intuitive.
 
 
-4.2. 6. Machine Learning Classifiers
+### 4.2.6. Machine Learning Classifiers
 Machine learning classifiers have been trained and tested using training and test data
 to select the best performing classifier. The sklearn library was used to import these
 classifiers. The models were trained on X_train and y_train data and tested on X_test
@@ -412,10 +411,9 @@ for analysing DALYs and making predictions based on machine learning models.
 
 ## 4.3. FUNCTIONAL REQUIREMENTS
 
-```
 The functional requirements for the prediction of DALYs (Disability-Adjusted Life
 Years) due to mental illness in an ML project could include:
-```
+
 1. Data Collection and Preprocessing: The system requires collection relevant data on
     mental health conditions, prevalence percentages, and associated DALYs from
     reliable sources. It preprocesses the data, including cleaning, normalization, and
@@ -427,9 +425,9 @@ Years) due to mental illness in an ML project could include:
     such as mean squared error or accuracy, to assess its performance.
 3. Feature Selection and Importance: The system determines the key features or
     variables that contribute significantly to the prediction of DALYs. It provides
-    insights into the relative importance of different mental health conditions in relation
-    to DALYs.
-4. Prediction and Reporting: The system should accept input data on mental health
+    insights into the relative importance of different mental health conditions in
+   relation to DALYs.
+5. Prediction and Reporting: The system should accept input data on mental health
     conditions and provide predictions for the corresponding DALYs. It generates
     comprehensive reports or visualizations summarizing the predictions and
     associated uncertainties. The system presents the results in an easily interpretable
@@ -445,54 +443,43 @@ usability for users and stakeholders.
 
 Importing datasets
 
-```
 Fig. 5.1. importing dataset
-```
-```
-Fig. 5.2. dataset
-```
-```
-Fig. 5.3. merging datasets
-```
 
-```
+Fig. 5.2. dataset
+
+Fig. 5.3. merging datasets
+
 Fig. 5.4. Dataset after feature extraction
-```
+
 Machine learning models can only work with numerical values. Feature Encoding is
 process of transformation of the categorical values of the relevant features into
 numerical ones.
 
-```
+
 Fig. 5.5. feature encoding and splitting of data.
-```
-The dataset is split to take 80 percent of the values to train the dataset and 20 percent
-to test the dataset. After training the model on the training set we test the model on the
-testing set. After the model performed well on the testing set, based on the confidence
-it can be used for prediction.
+
+The dataset is split to take 80 percent of the values to train the dataset and 20 percent testing to test the dataset. After training the model on the training set we test the model on the testing set. After the model performed well on the testing set, based on the confidence it can be used for prediction.
 
 
-```
 Fig. 5.6. splitting data to training and testing the model
-```
+
 Linear Regression
 
-```
 Fig. 5.7. implementing linear regressor classifier
-```
+
 Random Forest Regressor
 
-```
+
 Fig. 5.8. implementing Random Forest Regressor Classifier
-```
+
 
 Taking input for the model prediction
 
-```
 Fig. 5.9. taking input for model prediction
-```
+
 Converting to pickle file
 
-# Fig. 5.10. getting the ML model as pickle file
+Fig. 5.10. getting the ML model as pickle file
 
 
 # FLASK
@@ -504,20 +491,17 @@ Converting to pickle file
 
 The results of the code implementation are as follows.
 
-```
 Fig. 6.1. user interface
-```
-```
+
 Fig. 6.2. user input values
-```
 
 Fig. 6.3. input values being given to model by entering _‘_ predict _’_
 
-```
-Fig. 6.4. final output of predicted percentage
-```
 
-# 6. CONCLUSION AND FUTURE SCOPE
+Fig. 6.4. final output of predicted percentage
+
+
+# 7. CONCLUSION AND FUTURE SCOPE
 
 ## 7.1. CONCLUSION
 
