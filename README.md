@@ -102,7 +102,6 @@ health.
 
 ## 1.3. PROBLEM STATEMENT
 
-```
 The burden of mental illness is a significant public health concern, and understanding
 the prevalence and impact of specific mental health conditions is crucial for effective
 intervention strategies. This project aims to analyze the association between the
@@ -114,7 +113,7 @@ risk factors associated with mental illness. The findings will inform evidence-b
 interventions, resource allocation, and policy recommendations to address the burden
 of mental illness on a global scale.
 .
-```
+
 1. 4. OBJECTIVE
 
 The objective of this project is to develop a robust and accurate predictive model that
