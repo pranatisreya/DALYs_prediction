@@ -491,12 +491,14 @@ Fig. 5.10. getting the ML model as pickle file
 
 The results of the code implementation are as follows.
 
+
+![alt text](https://github.com/pranatisreya/DALYs_prediction/blob/main/static/image.png)
+
 Fig. 6.1. user interface
 
 Fig. 6.2. user input values
 
 Fig. 6.3. input values being given to model by entering _‘_ predict _’_
-
 
 Fig. 6.4. final output of predicted percentage
 
