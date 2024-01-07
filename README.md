@@ -16,25 +16,13 @@ death (YLLs) and the years lived with disability (YLDs) into a single summary me
 The DALYs percentage represents the proportion or share of the overall disease burden
 in a population that is attributed to a specific condition or cause. It is often used to
 compare and prioritize different diseases or health conditions based on their impact on
-population health. For example, if the DALYs percentage for mental illness in a
-particular population is 10%, it means that mental illness accounts for 10% of the total
-burden of disease in that population. By predicting DALYs associated with mental
-illness using machine learning or data-driven approaches, researchers can gain insights
-into the impact of mental health conditions on population health and inform public
-health interventions, resource allocation, and policy decisions.
+population health. For example, if the DALYs percentage for mental illness in a particular population is 10%, it means that mental illness accounts for 10% of the total
+burden of disease in that population. By predicting DALYs associated with mental illness using machine learning or data-driven approaches,researchers can gain insights into the impact of mental health conditions on population health and inform public health interventions, resource allocation, and policy decisions.
 
-The critical analysis is done based on the Data sources, machine learning techniques
-and feature extraction method. The reviewing is done based on major databases. The
-extracted data is examined using statistical analysis and machine learning techniques
-were applied. The prediction of the impact of mental illness on the population using
-machine learning techniques is an alternative approach to the old traditional strategies
-which are time consuming and may not be reliable.
+The critical analysis is done based on the Data sources, machine learning techniques and feature extraction method. The reviewing is done based on major databases. The extracted data is examined using statistical analysis and machine learning techniques were applied. The prediction of the impact of mental illness on the population using
+machine learning techniques is an alternative approach to the old traditional strategies which are time consuming and may not be reliable.
 
-The obtained prediction is a way of understanding the underlying impact of mental
-illness on the health of the people and it enables us to get a healthy life expectancy. The
-growing impact of mental illness and the challenges associated with detection and
-treatment of mental disorders makes it necessary for us to understand the complete
-effect of it on most of the population.
+The obtained prediction is a way of understanding the underlying impact of mental illness on the health of the people and it enables us to get a healthy life expectancy. The growing impact of mental illness and the challenges associated with detection and treatment of mental disorders makes it necessary for us to understand the complete effect of it on most of the population.
 
 
 
